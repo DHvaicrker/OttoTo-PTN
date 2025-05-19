@@ -9,6 +9,7 @@ Together, they demonstrate the approach in predicting trip delays based only on 
 ## Project Overview
 ### Model Performance Comparison:
 ![Model Performance Comparison](images/models_performance.png)
+*As observed, CatBoost outperforms all other models across all evaluation metrics. Therefore, it was selected as the final model.*
 
 ### Feature Importance
 ![Feature Importance](images/catBoost_feature_importance.png)
