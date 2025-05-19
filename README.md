@@ -29,7 +29,7 @@ The following images showcase the capabilities of the system, comparing routing 
 OttoTo_PTN is a high-performance offline public transportation routing system designed to compute optimal journeys in public transit networks. It is based on the RAPTOR (Round-based Public Transit Routing) algorithm, known for its speed and efficiency, and processes GTFS (General Transit Feed Specification) for transit data.
 
 **Comparison to Google Maps**
-As shown in Figures 1 and 2, OttoTo_PTN achieves comparable routing results to services like Google Maps in terms of accuracy and efficiency, while being specifically tailored for use cases such as custom transit networks or offline routing scenarios.
+As shown in Figures 3 and 4, OttoTo_PTN achieves comparable routing results to services like Google Maps in terms of accuracy and efficiency, while being specifically tailored for use cases such as custom transit networks or offline routing scenarios.
 
 ### Key Features of OttoTo_PTN
 * **RAPTOR Algorithm**: Implements the RAPTOR algorithm to compute the fastest routes with minimal transfers.
@@ -77,7 +77,7 @@ This pipeline ensures that the routing engine can quickly access and process the
 
 ## Part 2: Tel-Aviv Latency Prediction with Weather and Historical Data
 
-This component of the project focuses on predicting trip delays in Tel-Aviv using a combination of weather data, historical trip information, and engineered cyclical features. The goal is to provide accurate delay forecasts based solely on data known in advance. The visualizations in Figures 3 and 4 highlight the model evaluation and key predictive factors.
+This component of the project focuses on predicting trip delays in Tel-Aviv using a combination of weather data, historical trip information, and engineered cyclical features. The goal is to provide accurate delay forecasts based solely on data known in advance. The visualizations in Figures 1 and 2 highlight the model evaluation and key predictive factors.
 
 ### Feature Engineering for Latency Prediction
 
