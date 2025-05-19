@@ -1,4 +1,4 @@
-# Comprehensive Public Transit Analysis and Navigation System
+# Pulic Transport Navigator and Latency Prediction Model
 
 This project integrates a high-performance offline public transportation routing system (OttoTo_PTN) with a sophisticated trip latency prediction model for Tel-Aviv. Together, these components offer a robust solution for navigating public transit and understanding potential delays, leveraging real-world GTFS data, historical trip information, and weather patterns.
 
