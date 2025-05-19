@@ -1,6 +1,6 @@
 # Pulic Transport Navigator and Latency Prediction Model
 
-This project integrates a high-performance offline public transportation routing system (OttoTo_PTN) with a sophisticated trip latency prediction model for Tel-Aviv. Together, these components offer a robust solution for navigating public transit and understanding potential delays, leveraging real-world GTFS data, historical trip information, and weather patterns.
+This project integrates a high-performance offline public transportation routing system (OttoTo_PTN) with a sophisticated trip latency prediction model (CatBoost) for Tel-Aviv. Together, these components offer a robust solution for navigating public transit and understanding potential delays, leveraging real-world GTFS data, historical trip information, and weather patterns.
 
 ## Visual Highlights
 
@@ -8,7 +8,9 @@ The following images showcase the capabilities of the system, comparing routing 
 **Tel-Aviv Latency Prediction - Model Insights**
 
 *Figure 1: Model Performance Comparison, evaluating different machine learning models for trip delay prediction.*
+*As observed, CatBoost outperforms all other models across all evaluation metrics. Therefore, it was selected as the final model.*
 ![Model Performance Comparison](LatencyPrediction/images/models_performance.png)
+
 
 *Figure 2: Feature Importance plot, revealing key factors influencing trip delay predictions based on data known in advance.*
 ![Feature Importance](LatencyPrediction/images/catBoost_feature_importance.png)
